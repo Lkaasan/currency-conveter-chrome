@@ -1,0 +1,11 @@
+{
+    "name": "Currency Converter",
+    "version": "1.0.0",
+    "description": "Convert Currency!",
+    "manifest_version": 3,
+    "author": "Lukas Kaas Andersen",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Currency Converter"
+    }
+}
