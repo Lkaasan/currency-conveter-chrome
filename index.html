@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            .container {
-                width: 500px;
-                height: 500px;
-                background-color: gray;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .dropdowns {
-                display: flex; /* Use flexbox to align items */
-            }
-            
-            .dropdowns select {
-                margin-right: 10px; /* Adjust spacing between dropdowns */
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <script>
             function convert() {
                  
@@ -26,7 +10,6 @@
     </head>
     <body>
         <div class="container">
-            <input type="number" placeholder="Amount" id="amount">
             <div class="dropdowns">
                 <select class="form-select" id="currency1" name="currency1" onchange="convert()">
                     <option value="AFN" label="Afghan afghani">AFN</option>
