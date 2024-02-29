@@ -1,15 +1,27 @@
 .container {
-    width: 500px;
-    height: 500px;
+    width: 750px;
+    height: 750px;
     background-color: gray;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .dropdowns {
-    display: flex; /* Use flexbox to align items */
+    display: flex; 
 }
 
-.dropdowns select {
+.input {
+    display: flex;
+}
+
+.dropdowns-select {
     margin-right: 10px; /* Adjust spacing between dropdowns */
+    margin-left: 10px;
+    font-size: 12px; /* Decrease font size */
+    padding: 4px; /* Decrease padding */
+}
+
+
+.button{ 
+    top: 50%;
 }
