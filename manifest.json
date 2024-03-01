@@ -8,9 +8,6 @@
       "default_popup": "index.html",
       "default_title": "Currency Converter"
     },
-    "permissions": [],
-    "content_security_policy": {
-      "extension_pages": "script-src 'self' 'unsafe-inline'; object-src 'self'"
-    }
+    "permissions": []
   }
   
