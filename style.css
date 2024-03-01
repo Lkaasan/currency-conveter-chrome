@@ -1,27 +1,59 @@
 .container {
-    width: 750px;
-    height: 750px;
-    background-color: gray;
-    justify-content: center;
-    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.dropdowns {
-    display: flex; 
+h1 {
+    text-align: center;
 }
 
 .input {
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdowns {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.dropdowns-select {
-    margin-right: 10px; /* Adjust spacing between dropdowns */
-    margin-left: 10px;
-    font-size: 12px; /* Decrease font size */
-    padding: 4px; /* Decrease padding */
+.select-container {
+    flex: 1;
+    margin-right: 10px;
 }
 
+.currency-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
 
-.button{ 
-    top: 50%;
+.button {
+    text-align: center;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.output {
+    text-align: center;
+}
+
+.output h2 {
+    margin-top: 20px;
 }
