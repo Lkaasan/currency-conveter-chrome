@@ -4,8 +4,13 @@
     "description": "Convert Currency!",
     "manifest_version": 3,
     "author": "Lukas Kaas Andersen",
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Currency Converter"
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Currency Converter"
+    },
+    "permissions": [],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'unsafe-inline'; object-src 'self'"
     }
-}
+  }
+  
